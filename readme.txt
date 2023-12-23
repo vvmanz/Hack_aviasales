@@ -43,4 +43,9 @@ sqlite_import_from_api.py: Скрипт для импорта обработан
 Фронтенд: Streamlit
 Бэкенд: Flask
 База данных: SQLite
+<<<<<<< HEAD
 Визуализация данных: Plotpy
+=======
+Визуализация данных: PlotPy
+
+>>>>>>> 8b77115f08340f62ed3bd4ec76139c58fcac488c
