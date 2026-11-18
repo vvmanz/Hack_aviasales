@@ -81,11 +81,3 @@ readme.txt                  original project overview
 ```
 
 See the MP4 files in the repository for recordings of the prototype.
-
-## Limitations and security
-
-- **Security before publishing:** `amadeus_api.py` contains embedded API credentials in the supplied source. Revoke/rotate them, remove them from source and git history, and load new credentials from environment variables before sharing the project. The included README never repeats those values.
-- The Flask app currently uses `debug=True`; turn it off for any nonlocal deployment.
-- The price observations are historical, and the API import is a separate workflow; running the UI does not fetch live fares.
-- API endpoints expect valid query parameters; error handling and input validation can be improved.
-- No top-level project licence was included in the supplied archive.
